@@ -47,10 +47,20 @@ nettix/nettix-go is well-suited for implementing:
 - **Connection Tracking**: Optional ChannelGroup for managing active connections
 - **Async I/O**: Future-based async operations with listeners
 - **Request-Response Correlation**: TimeoutableMap for matching requests to responses
- 
+
+## Why nettix-go?
+
+While Go has excellent networking libraries, most are either:
+- Low-level (evio, nbio) requiring significant boilerplate
+- HTTP-focused (standard library, fasthttp)
+- Event-loop based without Netty's pipeline abstraction (gnet)
+
+nettix-go brings Netty's proven pipeline architecture to Go,
+making complex protocol implementation significantly easier.
+
 ## Related Projects
 
-- [**nettix-go-mq**](https:?/github.com/osanha/nettix-go-mq): gRPC-based message queue using nettix-go utilities
+- [**nettix-go-mq**](https://github.com/osanha/nettix-go-mq): gRPC-based message queue using nettix-go utilities
 - [**nettix-go-smpp**](https://github.com/osanha/nettix-go-smpp): SMPP 3.4 protocol implementation using nettix-go
 
 
