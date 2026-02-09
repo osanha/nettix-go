@@ -1,4 +1,4 @@
-module nettix-go
+module github.com/osanha/nettix-go
 
 go 1.25
 
