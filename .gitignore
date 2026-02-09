@@ -1,0 +1,64 @@
+### Maven / Java / Kotlin ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin/
+
+### IntelliJ IDEA ###
+.idea/
+out/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Claude / AI Tools ###
+.claude/
+
+### Log Files ###
+*.log
+
+### Mobile / Android ###
+.gradle/
+local.properties
+
+### Go Build Artifacts ###
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+### Go Test / Coverage ###
+*.test
+*.out
+
+### Go Workspace (Go 1.18+) ###
+go.work
+go.work.sum
