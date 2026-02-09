@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"nettix-go/channel/handler"
-	"nettix-go/log"
-	"nettix-go/ssl"
-	"nettix-go/util"
+	"github.com/osanha/nettix-go/channel/handler"
+	"github.com/osanha/nettix-go/log"
+	"github.com/osanha/nettix-go/ssl"
+	"github.com/osanha/nettix-go/util"
 )
 
 // PipelineFactory creates a new pipeline for each connection.

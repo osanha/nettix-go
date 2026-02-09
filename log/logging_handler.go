@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"net"
 
-	"nettix-go/util"
+	"github.com/osanha/nettix-go/util"
 )
 
 // LoggingHandler logs I/O and exception events.

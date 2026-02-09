@@ -7,8 +7,8 @@ import (
 	"log/slog"
 	"time"
 
-	"nettix-go/channel"
-	"nettix-go/util"
+	"github.com/osanha/nettix-go/channel"
+	"github.com/osanha/nettix-go/util"
 )
 
 // MessageListener handles received messages.

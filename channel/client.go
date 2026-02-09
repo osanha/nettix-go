@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"nettix-go/util"
+	"github.com/osanha/nettix-go/util"
 )
 
 var (

@@ -6,7 +6,7 @@ package example
 import (
 	"log/slog"
 
-	"nettix-go/channel"
+	"github.com/osanha/nettix-go/channel"
 )
 
 // EchoServer demonstrates a simple echo server using nettix-go.

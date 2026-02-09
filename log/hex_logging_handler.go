@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"net"
 
-	"nettix-go/util"
+	"github.com/osanha/nettix-go/util"
 )
 
 // HexLoggingHandler logs messages in hexadecimal format at DEBUG level.
